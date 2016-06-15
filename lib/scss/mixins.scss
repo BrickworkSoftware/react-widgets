@@ -6,7 +6,7 @@
 }
 
 .list-inline() {
-  @mixin list-unstyled();
+  @include list-unstyled();
   display: inline;
 
   > li {
